@@ -12,10 +12,10 @@ public class Body
 {
     private final Vector2 position = new Vector2();
     private final Vector2 velocity = new Vector2();
+    private final float width;
+    private final float height;
     private float[] vertices;
     private float countVert;
-    private float width = 0;
-    private float height = 0;
 
     public Body(float x, float y, float width, float height) {
         position.set(x, y);
