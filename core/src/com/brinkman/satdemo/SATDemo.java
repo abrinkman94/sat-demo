@@ -85,7 +85,6 @@ public class SATDemo extends Game implements InputProcessor, Screen
         float y = 0;
 
         if (BodyCollision.intersects(body, other, mtv)) {
-            System.out.println("COLLISION");
             hud.setMtv(mtv);
 
             float mtvX = mtv.normal.x * mtv.depth;
