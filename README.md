@@ -1,4 +1,4 @@
-This is **Seperating Axis Theorem** demo. Currently working with different types of polygons. 
+This is a **Seperating Axis Theorem** demo. Currently working with different types of polygons. 
 
 To move rectangle:
 
